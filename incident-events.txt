@@ -1,0 +1,7 @@
+2026-10-09 09:14:02 | EMAIL_GATEWAY | User jpatel received an email with attachment invoice_viewer.zip
+2026-10-09 09:14:35 | WEB_ACTIVITY | User jpatel downloaded invoice_viewer.zip
+2026-10-09 09:15:10 | FILE_ACTIVITY | Archive extracted; invoice_viewer.exe created
+2026-10-09 09:16:03 | ENDPOINT_ALERT | Suspicious PowerShell child process detected for invoice_viewer.exe
+2026-10-09 09:16:08 | NETWORK_ALERT | Outbound connection attempt to 203.0.113.77:443 from the affected endpoint
+2026-10-09 09:16:20 | ENDPOINT_RESPONSE | Security tool quarantined invoice_viewer.exe
+2026-10-09 09:18:00 | SOC_NOTE | Incident flagged for analyst investigation; scope and impact not yet determined
